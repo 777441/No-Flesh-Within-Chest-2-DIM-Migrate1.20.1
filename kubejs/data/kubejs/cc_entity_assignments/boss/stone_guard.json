@@ -1,0 +1,4 @@
+{
+  "chestcavity": "kubejs:cc_types/boss/stone_guard.json",
+  "entities": ["somebosses:stone_guard"]
+}

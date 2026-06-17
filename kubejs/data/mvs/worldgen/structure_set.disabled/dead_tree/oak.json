@@ -1,0 +1,18 @@
+{
+  "structures":[
+    {
+      "structure": "mvs:dead_tree/oak",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "type": "minecraft:random_spread",
+
+    "salt": 982736454,
+
+    "spacing": 56,
+
+    "separation": 48
+  }
+}

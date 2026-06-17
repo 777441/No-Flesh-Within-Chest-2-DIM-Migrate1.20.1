@@ -1,0 +1,106 @@
+{
+  "defaultChestCavity": [
+    {
+      "item": "chestcavity:fish_muscle",
+      "position": 0
+    },
+    {
+      "item": "kubejs:fish_bone",
+      "position": 1
+    },
+    {
+      "item": "kubejs:whale_lung",
+      "position": 3
+    },
+    {
+      "item": "kubejs:animal_heart",
+      "position": 4
+    },
+    {
+      "item": "kubejs:whale_lung",
+      "position": 5
+    },
+    {
+      "item": "kubejs:fish_bone",
+      "position": 7
+    },
+    {
+      "item": "chestcavity:fish_muscle",
+      "position": 8
+    },
+    {
+      "item": "chestcavity:fish_muscle",
+      "position": 9
+    },
+    {
+      "item": "kubejs:fish_bone",
+      "position": 10
+    },
+    {
+      "item": "kubejs:animal_spleen",
+      "position": 11
+    },
+    {
+      "item": "kubejs:animal_kidney",
+      "position": 12
+    },
+    {
+      "item": "kubejs:fish_spine",
+      "position": 13
+    },
+    {
+      "item": "kubejs:animal_kidney",
+      "position": 14
+    },
+    {
+      "item": "kubejs:animal_liver",
+      "position": 15
+    },
+    {
+      "item": "kubejs:fish_bone",
+      "position": 16
+    },
+    {
+      "item": "chestcavity:fish_muscle",
+      "position": 17
+    },
+    {
+      "item": "chestcavity:fish_muscle",
+      "position": 18
+    },
+    {
+      "item": "chestcavity:fish_muscle",
+      "position": 19
+    },
+    {
+      "item": "kubejs:fish_intestine",
+      "position": 20
+    },
+    {
+      "item": "kubejs:fish_intestine",
+      "position": 21
+    },
+    {
+      "item": "kubejs:animal_stomach",
+      "position": 22
+    },
+    {
+      "item": "kubejs:fish_intestine",
+      "position": 23
+    },
+    {
+      "item": "kubejs:fish_intestine",
+      "position": 24
+    },
+    {
+      "item": "chestcavity:fish_muscle",
+      "position": 25
+    },
+    {
+      "item": "chestcavity:fish_muscle",
+      "position": 26
+    }
+  ],
+  "baseOrganScores": [],
+  "inventoryType": "kubejs:cc_inventory_types/default"
+}

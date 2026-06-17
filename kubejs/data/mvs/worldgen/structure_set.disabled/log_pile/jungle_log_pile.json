@@ -1,0 +1,18 @@
+{
+  "structures":[
+    {
+      "structure": "mvs:log_pile/jungle_log_pile",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "type": "minecraft:random_spread",
+
+    "salt": 388549865,
+
+    "spacing": 52,
+
+    "separation": 32
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "key": "cardboard",
+    "category": "fibre",
+    "primary": 3,
+    "secondary": 0.3,
+    "tertiary": 2,
+    "durability": 250,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 122,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "cfa87e",
+        "texture": "cfa87e"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "create:cardboard"
+        ]
+    },
+    "requiredTools": {
+        "cut": "minecraft:wood"
+    }
+}

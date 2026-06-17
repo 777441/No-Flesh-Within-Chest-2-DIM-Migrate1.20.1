@@ -1,0 +1,106 @@
+{
+  "defaultChestCavity": [
+    {
+      "item": "kubejs:nether_muscle",
+      "position": 0
+    },
+    {
+      "item": "kubejs:nether_rib",
+      "position": 1
+    },
+    {
+      "item": "kubejs:fireproof_appendix",
+      "position": 2
+    },
+    {
+      "item": "kubejs:fireproof_lung",
+      "position": 3
+    },
+    {
+      "item": "kubejs:fireproof_heart",
+      "position": 4
+    },
+    {
+      "item": "kubejs:fireproof_lung",
+      "position": 5
+    },
+    {
+      "item": "kubejs:crimson_mosquito_mouthparts",
+      "position": 6
+    },
+    {
+      "item": "kubejs:nether_rib",
+      "position": 7
+    },
+    {
+      "item": "kubejs:nether_muscle",
+      "position": 8
+    },
+    {
+      "item": "kubejs:nether_muscle",
+      "position": 9
+    },
+    {
+      "item": "kubejs:nether_rib",
+      "position": 10
+    },
+    {
+      "item": "kubejs:fireproof_kidney",
+      "position": 12
+    },
+    {
+      "item": "kubejs:fireproof_spine",
+      "position": 13
+    },
+    {
+      "item": "kubejs:fireproof_kidney",
+      "position": 14
+    },
+    {
+      "item": "kubejs:nether_rib",
+      "position": 16
+    },
+    {
+      "item": "kubejs:nether_muscle",
+      "position": 17
+    },
+    {
+      "item": "kubejs:nether_muscle",
+      "position": 18
+    },
+    {
+      "item": "kubejs:nether_muscle",
+      "position": 19
+    },
+    {
+      "item": "kubejs:fireproof_intestine",
+      "position": 20
+    },
+    {
+      "item": "kubejs:fireproof_intestine",
+      "position": 21
+    },
+    {
+      "item": "kubejs:fireproof_stomach",
+      "position": 22
+    },
+    {
+      "item": "kubejs:fireproof_intestine",
+      "position": 23
+    },
+    {
+      "item": "kubejs:fireproof_intestine",
+      "position": 24
+    },
+    {
+      "item": "kubejs:nether_muscle",
+      "position": 25
+    },
+    {
+      "item": "kubejs:nether_muscle",
+      "position": 26
+    }
+  ],
+  "baseOrganScores": [],
+  "inventoryType": "kubejs:cc_inventory_types/default"
+}

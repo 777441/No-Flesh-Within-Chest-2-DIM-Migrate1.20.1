@@ -1,0 +1,20 @@
+{
+    "slotDefinitions": [],
+    "backgroundTexture": "kubejs:textures/gui/chest_cavity/functional.png",
+    "playerInventoryPosition": {
+        "x": 1,
+        "y": 35
+    },
+    "titlePosition": {
+        "x": 0,
+        "y": 0
+    },
+    "backgroundSize": {
+        "x": 178,
+        "y": 203
+    },
+    "inventoryLabelPosition": {
+        "x": 0,
+        "y": 0
+    }
+}

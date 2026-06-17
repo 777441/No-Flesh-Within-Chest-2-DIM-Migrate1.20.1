@@ -1,0 +1,25 @@
+{
+    "replace": true,
+    "slots": [
+        "double/binding"
+    ],
+    "requirement":{
+        "type":"mr:custom",
+        "key":"coupler"
+    },
+    "rarity": "inspired",
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/custom_glyph.png",
+        "textureX": 0,
+        "textureY": 48
+    },
+    "outcomes": [
+        {
+            "materials": [ "tetra:fibre/", "tetra:skin/" ],
+            "moduleKey": "double/coupler",
+            "moduleVariant": "coupler/"
+        }
+    ]
+}

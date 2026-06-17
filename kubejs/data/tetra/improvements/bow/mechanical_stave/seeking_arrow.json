@@ -1,0 +1,46 @@
+[
+    {
+        "key": "stave/seeking_arrow",
+        "level": 1,
+        "integrity": -1,
+        "aspects": {
+            "honed": 1
+        },
+        "effects": {
+            "kubejs:seeking_arrow": [1, 1]
+        }
+    },
+    {
+        "key": "stave/seeking_arrow",
+        "level": 2,
+        "integrity": -1,
+        "aspects": {
+            "honed": 2
+        },
+        "effects": {
+            "kubejs:seeking_arrow": [2, 2]
+        }
+    },
+    {
+        "key": "stave/seeking_arrow",
+        "level": 3,
+        "integrity": -1,
+        "aspects": {
+            "honed": 3
+        },
+        "effects": {
+            "kubejs:seeking_arrow": [3, 3]
+        }
+    },
+    {
+        "key": "stave/seeking_arrow",
+        "level": 4,
+        "integrity": -1,
+        "aspects": {
+            "honed": 4
+        },
+        "effects": {
+            "kubejs:seeking_arrow": [4, 4]
+        }
+    }
+]

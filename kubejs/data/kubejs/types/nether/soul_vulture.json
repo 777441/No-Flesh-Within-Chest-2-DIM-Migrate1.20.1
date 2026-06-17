@@ -1,0 +1,88 @@
+{
+  "defaultChestCavity": [
+    {
+      "item": "kubejs:nether_rib",
+      "position": 1
+    },
+    {
+      "item": "kubejs:soul_piece",
+      "position": 2
+    },
+    {
+      "item": "kubejs:animal_lung",
+      "position": 3
+    },
+    {
+      "item": "kubejs:animal_heart",
+      "position": 4
+    },
+    {
+      "item": "kubejs:animal_lung",
+      "position": 5
+    },
+    {
+      "item": "kubejs:soul_piece",
+      "position": 6
+    },
+    {
+      "item": "kubejs:nether_rib",
+      "position": 7
+    },
+    {
+      "item": "kubejs:soul_vulture_feather",
+      "position": 9
+    },
+    {
+      "item": "kubejs:nether_rib",
+      "position": 10
+    },
+    {
+      "item": "kubejs:animal_spleen",
+      "position": 11
+    },
+    {
+      "item": "kubejs:animal_kidney",
+      "position": 12
+    },
+    {
+      "item": "kubejs:animal_spine",
+      "position": 13
+    },
+    {
+      "item": "kubejs:animal_kidney",
+      "position": 14
+    },
+    {
+      "item": "kubejs:animal_liver",
+      "position": 15
+    },
+    {
+      "item": "kubejs:nether_rib",
+      "position": 16
+    },
+    {
+      "item": "kubejs:soul_vulture_feather",
+      "position": 17
+    },
+    {
+      "item": "kubejs:animal_intestine",
+      "position": 20
+    },
+    {
+      "item": "kubejs:animal_intestine",
+      "position": 21
+    },
+    {
+      "item": "kubejs:animal_stomach",
+      "position": 22
+    },
+    {
+      "item": "kubejs:animal_intestine",
+      "position": 23
+    },
+    {
+      "item": "kubejs:animal_intestine",
+      "position": 24
+    }
+  ]
+}

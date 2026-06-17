@@ -1,0 +1,48 @@
+// priority: 1000
+StartupEvents.registry('fluid', event => {
+    event.create('molten_emerald_fluid')
+        .bucketColor(0x50C878)
+        .temperature(2000)
+        .stillTexture('kubejs:block/fluid/molten_emerald_fluid')
+        .flowingTexture('kubejs:block/fluid/molten_emerald_fluid')
+
+    event.create('molten_copper_fluid')
+        .bucketColor(0xC05630)
+        .temperature(2000)
+        .stillTexture('kubejs:block/fluid/molten_copper_fluid')
+        .flowingTexture('kubejs:block/fluid/molten_copper_fluid')
+
+    event.create('molten_diamond_fluid')
+        .bucketColor(0x7DF4E9)
+        .temperature(2000)
+        .stillTexture('kubejs:block/fluid/molten_diamond_fluid')
+        .flowingTexture('kubejs:block/fluid/molten_diamond_fluid')
+
+    event.create('molten_gold_fluid')
+        .bucketColor(0xFFED55)
+        .temperature(2000)
+        .stillTexture('kubejs:block/fluid/molten_gold_fluid')
+        .flowingTexture('kubejs:block/fluid/molten_gold_fluid')
+
+    event.create('molten_iron_fluid')
+        .bucketColor(0x921B0F)
+        .temperature(2000)
+        .stillTexture('kubejs:block/fluid/molten_iron_fluid')
+        .flowingTexture('kubejs:block/fluid/molten_iron_fluid')
+
+    event.create('syrup')
+        .temperature(1500)
+        .viscosity(2000)
+        .density(8000)
+        .flowingTexture('kubejs:block/fluid/syrup')
+        .stillTexture('kubejs:block/fluid/syrup')
+        .bucketColor(0x914300)
+
+    event.create('cream')
+        .temperature(1000)
+        .viscosity(1500)
+        .density(6000)
+        .flowingTexture('kubejs:block/fluid/cream')
+        .stillTexture('kubejs:block/fluid/cream')
+        .bucketColor(0xFDF5E6)
+})

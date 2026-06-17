@@ -1,0 +1,69 @@
+{
+  "defaultChestCavity": [
+    {
+      "item": "kubejs:rib",
+      "position": 0
+    },
+    {
+      "item": "kubejs:lung",
+      "position": 1
+    },
+    {
+      "item": "kubejs:heart",
+      "position": 3
+    },
+    {
+      "item": "kubejs:lung",
+      "position": 4
+    },
+    {
+      "item": "kubejs:rib",
+      "position": 5
+    },
+    {
+      "item": "kubejs:appendix",
+      "position": 6
+    },
+    {
+      "item": "kubejs:spleen",
+      "position": 7
+    },
+    {
+      "item": "kubejs:spine",
+      "position": 8
+    },
+    {
+      "item": "kubejs:stomach",
+      "position": 9
+    },
+    {
+      "item": "kubejs:liver",
+      "position": 10
+    },
+    {
+      "item": "kubejs:muscle",
+      "position": 11
+    },
+    {
+      "item": "kubejs:intestine",
+      "position": 12
+    },
+    {
+      "item": "kubejs:kidney",
+      "position": 13
+    },
+    {
+      "item": "kubejs:kidney",
+      "position": 14
+    },
+    {
+      "item": "kubejs:intestine",
+      "position": 15
+    },
+    {
+      "item": "kubejs:muscle",
+      "position": 16
+    }
+  ],
+  "inventoryType": "kubejs:cc_inventory_types/medium_terra"
+}

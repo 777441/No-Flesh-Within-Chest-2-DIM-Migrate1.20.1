@@ -1,0 +1,68 @@
+// priority: 5000
+const $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag')
+const $ListTag = Java.loadClass('net.minecraft.nbt.ListTag')
+const $BlockEntity = Java.loadClass('net.minecraft.world.level.block.entity.BlockEntity')
+const $Registries = Java.loadClass('net.minecraft.core.registries.Registries')
+const $TagKey = Java.loadClass('net.minecraft.tags.TagKey')
+const $EyeofEnder = Java.loadClass('net.minecraft.world.entity.projectile.EyeOfEnder')
+const $ClipContext = Java.loadClass('net.minecraft.world.level.ClipContext')
+const $ClipContextBlock = Java.loadClass('net.minecraft.world.level.ClipContext$Block')
+const $ClipContextFluid = Java.loadClass('net.minecraft.world.level.ClipContext$Fluid')
+const $Operation = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation')
+const $AttributeModifier = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier')
+
+const $RangedAttribute = Java.loadClass('net.minecraft.world.entity.ai.attributes.RangedAttribute')
+const $EntityType = Java.loadClass('net.minecraft.world.entity.EntityType')
+const $ServerPlayer = Java.loadClass('net.minecraft.server.level.ServerPlayer')
+const $LivingEntity = Java.loadClass('net.minecraft.world.entity.LivingEntity')
+const $CommonUtil = Java.loadClass('net.tigereye.chestcavity.util.CommonUtil')
+const $IntegerProperty = Java.loadClass('net.minecraft.world.level.block.state.properties.IntegerProperty')
+const $Integer = Java.loadClass('java.lang.Integer')
+const $MobEffectInstance = Java.loadClass('net.minecraft.world.effect.MobEffectInstance')
+const $PathfinderMob = Java.loadClass('net.minecraft.world.entity.PathfinderMob')
+
+const $FireBomb = Java.loadClass('io.redspace.ironsspellbooks.entity.spells.magma_ball.FireBomb')
+const $AbstractSpell = Java.loadClass('io.redspace.ironsspellbooks.api.spells.AbstractSpell')
+
+const $SummonedZombie = Java.loadClass('io.redspace.ironsspellbooks.entity.mobs.SummonedZombie')
+const $SummonedSkeleton = Java.loadClass('io.redspace.ironsspellbooks.entity.mobs.SummonedSkeleton')
+const $ExtendedEvokerFang = Java.loadClass('io.redspace.ironsspellbooks.entity.spells.ExtendedEvokerFang')
+
+const $LootContextParams = Java.loadClass('net.minecraft.world.level.storage.loot.parameters.LootContextParams')
+const $Serializer = Java.loadClass('net.minecraft.network.chat.Component$Serializer')
+const $ItemEntity = Java.loadClass('net.minecraft.world.entity.item.ItemEntity')
+
+const $FleshBlob = Java.loadClass('com.github.elenterius.biomancy.entity.mob.fleshblob.FleshBlob')
+const $BundleTooltip = Java.loadClass('net.minecraft.world.inventory.tooltip.BundleTooltip')
+const $NonNullList = Java.loadClass('net.minecraft.core.NonNullList')
+const $ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack')
+const $CustomRequirement = Java.loadClass('net.yiran.morerequirement.requirements.CustomRequirement')
+const $CustomCraftingEffectOutcome = Java.loadClass('net.yiran.morerequirement.craftefffect.CustomCraftingEffectOutcome')
+const $ToolAction = Java.loadClass('net.minecraftforge.common.ToolAction')
+const $InfinityStats = Java.loadClass('net.lerariemann.infinity.registry.var.ModStats')
+const $PotionBuilder = Java.loadClass('dev.latvian.mods.kubejs.misc.PotionBuilder')
+const $EntityCastData = Java.loadClass('io.redspace.ironsspellbooks.spells.EntityCastData')
+const $AbstractConeProjectile = Java.loadClass('io.redspace.ironsspellbooks.entity.spells.AbstractConeProjectile')
+const $ISSDamageSources = Java.loadClass('io.redspace.ironsspellbooks.damage.DamageSources')
+const $ISSDamageTypes = Java.loadClass('io.redspace.ironsspellbooks.damage.ISSDamageTypes')
+const $ParticleTypes = Java.loadClass('net.minecraft.core.particles.ParticleTypes')
+const $SpellDamageSource = Java.loadClass('io.redspace.ironsspellbooks.damage.SpellDamageSource')
+const $Player = Java.loadClass('net.minecraft.world.entity.player.Player')
+const $DevourJaw = Java.loadClass('io.redspace.ironsspellbooks.entity.spells.devour_jaw.DevourJaw')
+const $StompAoe = Java.loadClass('io.redspace.ironsspellbooks.entity.spells.StompAoe')
+const $BlockParticleOption = Java.loadClass('net.minecraft.core.particles.BlockParticleOption')
+const $PotionUtils = Java.loadClass('net.minecraft.world.item.alchemy.PotionUtils')
+const $WitherSkullProjectile = Java.loadClass('io.redspace.ironsspellbooks.entity.spells.WitherSkullProjectile')
+const $DeployerFakePlayer = Java.loadClass('com.simibubi.create.content.kinetics.deployer.DeployerFakePlayer')
+
+const $BaseSelectorItem = Java.loadClass('net.yorunina.maa.items.BaseSelectorItem')
+
+const $EntityFireDragon = Java.loadClass('com.github.alexthe666.iceandfire.entity.EntityFireDragon')
+const $EntityIceDragon = Java.loadClass('com.github.alexthe666.iceandfire.entity.EntityIceDragon')
+const $EntityLightningDragon = Java.loadClass('com.github.alexthe666.iceandfire.entity.EntityLightningDragon')
+const $Registry = Java.loadClass('net.minecraft.core.Registry')
+/** @type {Internal.Class | null} */
+let $AttributeEntry = null
+try { $AttributeEntry = Java.loadClass('dev.xkmc.l2library.base.tabs.contents.AttributeEntry') }
+catch (e) { console.warn('[Migration] $AttributeEntry 不可用，已跳过: ' + e) }
+const $AttributeRegistry = Java.loadClass('io.redspace.ironsspellbooks.api.registry.AttributeRegistry')

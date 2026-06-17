@@ -1,0 +1,120 @@
+{
+  "name": {
+    "text": "block.kubejs.mantle_energy_extractor"
+  },
+  "appearance": {
+    "item": "kubejs:machine/mantle_energy_extractor_item",
+    "shape": [
+      [
+        0.0625,
+        0,
+        0.0625,
+        0.9375,
+        0.8125,
+        0.9375
+      ]
+    ],
+    "running": {
+      "custommachinery:block": "kubejs:machine/mantle_energy_extractor",
+      "light": 15
+    },
+    "custommachinery:block": "kubejs:machine/mantle_energy_extractor",
+    "light": 3
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input_crystal",
+      "filter": [
+        "kubejs:source_focus_crystal",
+        "kubejs:exhausted_source_focus_crystal"
+      ],
+      "whitelist": true,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_target",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_extract",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_flame",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:source",
+      "capacity": 10000,
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 18,
+      "y": 166,
+      "width": 162,
+      "height": 76,
+      "texture": "kubejs:textures/gui/mantle_energy_extractor/player_inventory.png"
+    },
+    {
+      "type": "custommachinery:background",
+      "texture": "kubejs:textures/gui/mantle_energy_extractor/background.png",
+      "width": 192,
+      "height": 248
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 31,
+      "y": 130,
+      "texture_empty": "kubejs:textures/gui/mantle_energy_extractor/processor_empty.png",
+      "texture_filled": "kubejs:textures/gui/mantle_energy_extractor/processor_full.png",
+      "direction": "top",
+      "hide_jei": true
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_crystal",
+      "x": 91,
+      "y": 33,
+      "texture": "kubejs:textures/gui/solt_transparent.png"
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_target",
+      "x": 158,
+      "y": 136,
+      "texture": "kubejs:textures/gui/solt_transparent.png"
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_extract",
+      "x": 25,
+      "y": 80,
+      "texture": "kubejs:textures/gui/solt_transparent.png"
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_flame",
+      "x": 156,
+      "y": 80,
+      "texture": "kubejs:textures/gui/solt_transparent.png"
+    },
+    {
+      "type": "custommachinery:bar",
+      "x": 90,
+      "y": 48,
+      "id": "depth_bar",
+      "max": 10000,
+      "texture_empty": "kubejs:textures/gui/mantle_energy_extractor/depth_bar_empty.png",
+      "texture_filled": "kubejs:textures/gui/mantle_energy_extractor/depth_bar_full.png",
+      "orientation": "top",
+      "highlight": false
+    }
+  ]
+}

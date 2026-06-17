@@ -1,0 +1,6 @@
+{
+  "chestcavity": "kubejs:cc_types/overworld/rocky_roller.json",
+  "entities": [
+    "alexsmobs:rocky_roller"
+  ]
+}

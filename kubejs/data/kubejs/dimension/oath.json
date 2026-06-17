@@ -1,0 +1,15 @@
+{
+  "type": "kubejs:oath",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "kubejs:biome_oath",
+      "lakes": false,
+      "features": false,
+      "layers": [],
+      "structure_overrides": [
+        "kubejs:oath_structure_set"
+      ]
+    }
+  }
+}

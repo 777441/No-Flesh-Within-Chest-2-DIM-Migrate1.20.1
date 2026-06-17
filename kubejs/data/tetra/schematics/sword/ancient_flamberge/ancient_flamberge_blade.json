@@ -1,0 +1,40 @@
+{
+	"replace": true,
+	"slots": [ "sword/blade" ],
+	"materialSlotCount": 1,
+	"rarity": "ancient",
+	"displayType": "major",
+	"glyph": {
+		"textureLocation": "tetra:textures/gui/custom_glyph.png",
+		"textureX": 48
+	},
+	"requirement":{
+		"type":"mr:custom",
+		"key":"ancient_flamberge_blade"
+	},
+	"translation": {
+		"primaryAttributes": {
+			"generic.attack_damage": 3
+		},
+		"primaryEffects": {
+			"kubejs:flame_strike": [2, -1]
+		},
+		"secondaryEffects": {
+			"kubejs:flame_strike": [-0.5, 4]
+		},
+		"tertiaryEffects": {
+			"sweeping": 1
+		},
+		"durability": 2,
+		"integrity": -6,
+		"magicCapacity": 3
+	},
+	"outcomes": [
+		{
+			"materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
+			"countFactor": 3,
+			"moduleKey": "sword/ancient_flamberge_blade",
+			"moduleVariant": "ancient_flamberge_blade/"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+  "chestcavity": "kubejs:cc_types/boss/froverlord.json",
+  "entities": [
+    "somebosses:froverlord"
+  ]
+}

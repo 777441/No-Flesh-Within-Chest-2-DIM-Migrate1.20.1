@@ -1,0 +1,9 @@
+{
+    "predicate": {
+        "items": ["kubejs:reverse_causality_lens"]
+    },
+    "focal_range": {
+        "min": 8,
+        "max": 18
+    }
+}

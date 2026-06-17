@@ -1,0 +1,10 @@
+{
+  "defaultChestCavity": [
+    {
+      "item": "kubejs:immortal_volcanic_rock",
+      "position": 1
+    }
+  ],
+  "baseOrganScores": [],
+  "inventoryType": "kubejs:cc_inventory_types/small_terra"
+}

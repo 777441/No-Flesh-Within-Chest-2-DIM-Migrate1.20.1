@@ -1,0 +1,4 @@
+{
+    "chestcavity": "kubejs:cc_types/boss/dark_mask.json",
+    "entities": ["somebosses:dark_mask"]
+  }

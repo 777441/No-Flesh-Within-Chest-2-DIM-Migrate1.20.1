@@ -1,0 +1,74 @@
+// priority: 900
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:immortal_volcanic_rock')
+    .addDefault(Text.translatable('tooltips.kubejs.immortal_volcanic_rock.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.immortal_volcanic_rock.alt.1', Text.gold('100'), Text.gold('1')))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:ender_guardian_spine')
+    .addDefault(Text.translatable('tooltips.kubejs.ender_guardian_spine.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.ender_guardian_spine.alt.1', Text.gold('10')))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:netherite_muscle')
+    .addDefault(Text.translatable('tooltips.kubejs.netherite_muscle.default.1').gray())
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:harbinger_lung')
+    .addDefault(Text.translatable('tooltips.kubejs.harbinger_lung.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.harbinger_lung.alt.1', Text.gold('1')))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:leviathan_rib')
+    .addDefault(Text.translatable('tooltips.kubejs.leviathan_rib.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.leviathan_rib.alt.1', Text.gold('3'), Text.gold('1')))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:remnant_heart')
+    .addDefault(Text.translatable('tooltips.kubejs.remnant_heart.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.remnant_heart.alt.1'))
+    .addAlt(Text.translatable('tooltips.kubejs.remnant_heart.alt.2'))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:maledictus_wing')
+    .addDefault(Text.translatable('tooltips.kubejs.maledictus_wing.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.maledictus_wing.alt.1', KeyActiveHover))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:scylla_star_gem')
+    .addDefault(Text.translatable('tooltips.kubejs.scylla_star_gem.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.scylla_star_gem.alt.1', Text.gold('2'), FrozenHover))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:bookwyrm_star_gem')
+    .addDefault(Text.translatable('tooltips.kubejs.bookwyrm_star_gem.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.bookwyrm_star_gem.alt.1'))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:dying_heart')
+    .addDefault(Text.translatable('tooltips.kubejs.dying_heart.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.dying_heart.alt.1'))
+    .addAlt(Text.translatable('tooltips.kubejs.dying_heart.alt.2'))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:warden_core')
+    .addDefault(Text.translatable('tooltips.kubejs.warden_core.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.warden_core.alt.1', KeyActiveHover))
+    .addAlt(Text.translatable('tooltips.kubejs.warden_core.alt.2'))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:relic_metal_plate')
+    .addDefault(Text.translatable('tooltips.kubejs.relic_metal_plate.default.1').gray())
+    .addDefault(Text.translatable('tooltips.kubejs.relic_metal_plate.default.2').gray())
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:aesegull_rib_left')
+    .addDefault(Text.translatable('tooltips.kubejs.aesegull_rib_left.default.1').gray())
+    .addCtrl(Text.translatable('tooltips.kubejs.aesegull_rib_left.ctrl.1', Text.gold(Text.translatable('item.kubejs.aesegull_rib_right')), Text.gold('3')).gray())
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:aesegull_rib_right')
+    .addDefault(Text.translatable('tooltips.kubejs.aesegull_rib_right.default.1').gray())
+    .addCtrl(Text.translatable('tooltips.kubejs.aesegull_rib_right.ctrl.1', Text.gold(Text.translatable('item.kubejs.aesegull_rib_left')), Text.gold('3')).gray())
+)
+
+// treasure_detector_feather tooltip 已迁移至 client_scripts/tooltips/organ/alex.js（Alex 系）

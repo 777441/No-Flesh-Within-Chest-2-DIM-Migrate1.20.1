@@ -1,0 +1,4 @@
+{
+    "chestcavity": "kubejs:cc_types/boss/ender_ordnance.json",
+    "entities": ["somebosses:ender_ordnance"]
+  }

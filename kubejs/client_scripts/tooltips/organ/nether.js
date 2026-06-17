@@ -1,0 +1,40 @@
+// priority: 900
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:ignited_armour')
+    .addDefault(Text.translatable('tooltips.kubejs.ignited_armour.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.ignited_armour.alt.1'))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:magam_colloid')
+    .addDefault(Text.translatable('tooltips.kubejs.magam_colloid.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.magam_colloid.alt.1'))
+    .addCtrl(RevolutionFlameType)
+    .addCtrl(Text.translatable('tooltips.kubejs.magam_colloid.ctrl.1'))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:blaze_spine')
+    .addDefault(Text.translatable('tooltips.kubejs.blaze_spine.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.blaze_spine.alt.1', KeyActiveHover, Text.gold('1')))
+    .addAlt(Text.translatable('tooltips.kubejs.blaze_spine.alt.2', Text.gold('3')))
+    .addCtrl(RevolutionFlameType)
+    .addCtrl(Text.translatable('tooltips.kubejs.blaze_spine.ctrl.1'))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:explosion_cavity')
+    .addDefault(Text.translatable('tooltips.kubejs.explosion_cavity.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.explosion_cavity.alt.1', KeyActiveHover, Text.gold('10')))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:ghast_sac')
+    .addDefault(Text.translatable('tooltips.kubejs.ghast_sac.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.ghast_sac.alt.1', KeyActiveHover))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:hoglin_rumen')
+    .addDefault(Text.translatable('tooltips.kubejs.hoglin_rumen.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.hoglin_rumen.alt.1', KeyActiveHover))
+)
+
+RegistryOrganTooltip(new MultiStateTooltip('kubejs:golden_stone')
+    .addDefault(Text.translatable('tooltips.kubejs.golden_stone.default.1').gray())
+    .addAlt(Text.translatable('tooltips.kubejs.golden_stone.alt.1'))
+)

@@ -1,0 +1,27 @@
+// priority: 502
+const RoseNutrientsOrganDataWeightModel = new WeightRandomModel()
+    .addWeightRandom({ name: 'kubejs:rosy', mean: 0.8, sigma: 0.5 }, 5)
+
+const RoseNutrientsPotentialOrganDataWeightModel = new WeightRandomModel()
+    .addWeightRandom({ name: 'chestcavity:defense', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:strength', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:health', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:nerves', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:endurance', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:breath_recovery', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:breath_capacity', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:detoxification', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:filtration', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:nutrition', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:digestion', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:metabolism', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:fire_resistant', mean: 0.5, sigma: 0.5 }, 5)
+    .addWeightRandom({ name: 'chestcavity:knockback_resistant', mean: 0.5, sigma: 0.5 }, 5)
+
+RegistryUnformedTumorFluidConfig(
+    new UnformedTumorFluidConfigModel('kubejs:rose_nutrients_fluid')
+        .setOrganDataModel(RoseNutrientsOrganDataWeightModel)
+        .setPotentialOrganDataModel(RoseNutrientsPotentialOrganDataWeightModel)
+        .setOrganDataCount(1)
+        .setPotentialOrganDataCount(1)
+)

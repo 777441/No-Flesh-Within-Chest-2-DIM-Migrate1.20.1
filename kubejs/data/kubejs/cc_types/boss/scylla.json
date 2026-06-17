@@ -1,0 +1,10 @@
+{
+  "defaultChestCavity": [
+    {
+      "item": "kubejs:scylla_star_gem",
+      "position": 1
+    }
+  ],
+  "baseOrganScores": [],
+  "inventoryType": "kubejs:cc_inventory_types/small_terra"
+}

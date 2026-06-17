@@ -1,0 +1,19 @@
+{
+    "replace": true,
+    "slots": [
+        "scroll/material"
+    ],
+    "materialSlotCount": 0,
+    "rarity": "inspired",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/custom_glyph.png",
+        "textureX": 32,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "experienceCost": 10
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "farm_and_charm:roaster",
+  "ingredients": [
+    {
+      "item": "kubejs:worm_of_taste"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "farm_and_charm:butter"
+    },
+    {
+      "tag": "farm_and_charm:flour"
+    }
+  ],
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "result": {
+    "item": "kubejs:fried_taste_worm",
+    "count": 1
+  },
+  "requiresLearning": false
+}

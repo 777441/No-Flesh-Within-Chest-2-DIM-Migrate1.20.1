@@ -1,0 +1,15 @@
+// priority: 500
+StartupEvents.registry('item', event => {
+    event.create('kubejs:snow_monster_core').maxStackSize(1).texture('kubejs:item/organs/twilightforest/snow_monster_core').tag('kubejs:twilight').tag('kubejs:heart')
+    event.create('kubejs:etched_paper').maxStackSize(1).texture('kubejs:item/organs/twilightforest/etched_paper').tag('kubejs:twilight').tag('kubejs:warp')
+    event.create('kubejs:cloud_pyramid').maxStackSize(1).texture('kubejs:item/organs/twilightforest/cloud_pyramid').tag('kubejs:twilight').tag('kubejs:magic')
+    event.create('kubejs:minotaur_muscle').maxStackSize(1).texture('kubejs:item/organs/twilightforest/minotaur_muscle').tag('kubejs:twilight').tag('kubejs:muscle')
+    event.create('kubejs:questing_ram_answer').maxStackSize(1).texture('kubejs:item/organs/twilightforest/questing_ram_answer').tag('kubejs:twilight')
+    event.create('kubejs:knightphantom_ghost').maxStackSize(1).texture('kubejs:item/organs/twilightforest/knightphantom_ghost').tag('kubejs:twilight')
+    event.create('kubejs:energetic_naga_scale').maxStackSize(1).texture('kubejs:item/organs/twilightforest/naga_scale').tag('kubejs:twilight')
+    event.create('kubejs:twilight_broken_lich_crown').maxStackSize(1).texture('kubejs:item/organs/twilightforest/twilight_broken_lich_crown').tag('kubejs:twilight')
+    event.create('kubejs:armor_with_gaze').maxStackSize(1).texture('kubejs:item/organs/twilightforest/armor_with_gaze').tag('kubejs:twilight')
+    event.create('kubejs:minoshroom_totem').maxStackSize(1).texture('kubejs:item/organs/twilightforest/minoshroom_totem').tag('kubejs:twilight')
+    event.create('kubejs:carminite_reactor_core').maxStackSize(1).texture('kubejs:item/organs/twilightforest/carminite_reactor_core').tag('kubejs:twilight')
+    event.create('kubejs:snow_queen_eternal_sorrow').maxStackSize(1).texture('kubejs:item/organs/twilightforest/snow_queen_eternal_sorrow').tag('kubejs:twilight').tag('kubejs:ice')
+})

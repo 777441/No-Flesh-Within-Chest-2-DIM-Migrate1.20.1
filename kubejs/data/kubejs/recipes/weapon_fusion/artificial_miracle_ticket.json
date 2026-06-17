@@ -1,0 +1,12 @@
+{
+    "type": "cataclysm:weapon_fusion",
+    "base": {
+        "item": "minecraft:stone_bricks"
+    },
+    "addition": {
+        "item": "minecraft:sea_lantern"
+    },
+    "result": {
+        "item": "kubejs:artificial_miracle_ticket"
+    }
+}

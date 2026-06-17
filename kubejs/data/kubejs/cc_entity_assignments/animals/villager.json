@@ -1,0 +1,9 @@
+{
+  "chestcavity": "kubejs:cc_types/animals/villager.json",
+  "entities": [
+    "minecraft:villager",
+    "minecraft:wandering_trader",
+    "vinery:wandering_winemaker",
+    "supplementaries:red_merchant"
+  ]
+}

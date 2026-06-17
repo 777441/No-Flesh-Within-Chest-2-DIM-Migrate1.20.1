@@ -1,0 +1,4 @@
+{
+    "chestcavity": "kubejs:cc_types/boss/void_blossom.json",
+    "entities": ["bosses_of_mass_destruction:void_blossom"]
+  }

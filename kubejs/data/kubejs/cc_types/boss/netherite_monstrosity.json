@@ -1,0 +1,14 @@
+{
+  "defaultChestCavity": [
+    {
+      "item": "kubejs:netherite_muscle",
+      "position": 0
+    },
+    {
+      "item": "kubejs:netherite_muscle",
+      "position": 2
+    }
+  ],
+  "baseOrganScores": [],
+  "inventoryType": "kubejs:cc_inventory_types/small_terra"
+}

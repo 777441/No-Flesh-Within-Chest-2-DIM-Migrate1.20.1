@@ -1,0 +1,6 @@
+{
+    "chestcavity": "kubejs:cc_types/slime/common_slime.json",
+    "entities": [
+      "twilightforest:maze_slime"
+    ]
+}

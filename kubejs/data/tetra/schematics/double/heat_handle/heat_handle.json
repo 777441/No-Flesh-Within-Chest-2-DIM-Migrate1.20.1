@@ -1,0 +1,33 @@
+{
+    "replace": true,
+    "slots": [
+        "double/handle"
+    ],
+    "requirement":{
+        "type":"mr:custom",
+        "key":"heat_or_grinding_handle"
+    },
+    "rarity": "inspired",
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/custom_glyph.png",
+        "textureX": 128,
+        "textureY": 0
+    },
+    "translation": {
+        "secondaryAttributes": {
+            "generic.attack_speed": -1.5
+        },
+        "durability": -2,
+        "integrity": 3,
+        "magicCapacity": 3
+    },
+    "outcomes": [
+        {
+            "materials": ["tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/"],
+            "moduleKey": "double/heat_handle",
+            "moduleVariant": "heat_handle/"
+        }
+    ]
+}

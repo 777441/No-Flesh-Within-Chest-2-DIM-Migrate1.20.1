@@ -1,0 +1,6 @@
+{
+    "chestcavity": "kubejs:cc_types/twilightforest/ice_crystal.json",
+    "entities": [
+      "twilightforest:ice_crystal"
+    ]
+}

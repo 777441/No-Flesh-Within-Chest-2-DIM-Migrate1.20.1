@@ -1,0 +1,19 @@
+{
+  "defaultChestCavity": [
+    {
+      "item": "kubejs:watcher_probe",
+      "position": 2
+    }
+  ],
+  "baseOrganScores": [
+    {
+      "id": "chestcavity:health",
+      "value": "1"
+    },
+    {
+      "id": "chestcavity:nerves",
+      "value": "1"
+    }
+  ],
+  "inventoryType": "kubejs:cc_inventory_types/small_terra"
+}

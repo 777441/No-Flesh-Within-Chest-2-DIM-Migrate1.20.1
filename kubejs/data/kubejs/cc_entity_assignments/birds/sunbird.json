@@ -1,0 +1,6 @@
+{
+    "chestcavity": "kubejs:cc_types/birds/sunbird.json",
+    "entities": [
+      "alexsmobs:sunbird"
+    ]
+  }

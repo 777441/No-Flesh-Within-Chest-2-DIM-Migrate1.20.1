@@ -1,0 +1,10 @@
+{
+  "defaultChestCavity": [
+    {
+      "item": "kubejs:enderiophage_heart",
+      "position": 4
+    }
+  ],
+  "baseOrganScores": [],
+  "inventoryType": "kubejs:cc_inventory_types/small_terra"
+}

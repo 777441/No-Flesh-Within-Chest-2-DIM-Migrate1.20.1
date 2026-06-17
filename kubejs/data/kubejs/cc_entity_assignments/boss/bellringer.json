@@ -1,0 +1,4 @@
+{
+    "chestcavity": "kubejs:cc_types/boss/bellringer.json",
+    "entities": ["meetyourfight:bellringer"]
+  }

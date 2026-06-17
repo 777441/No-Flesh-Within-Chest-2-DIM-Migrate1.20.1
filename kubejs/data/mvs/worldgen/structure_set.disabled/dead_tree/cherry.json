@@ -1,0 +1,18 @@
+{
+  "structures":[
+    {
+      "structure": "mvs:dead_tree/cherry",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "type": "minecraft:random_spread",
+
+    "salt": 994872654,
+
+    "spacing": 56,
+
+    "separation": 48
+  }
+}

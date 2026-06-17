@@ -1,0 +1,6 @@
+{
+    "chestcavity": "kubejs:cc_types/dragon/lightning_dragon.json",
+    "entities": [
+        "iceandfire:lightning_dragon"
+    ]
+}

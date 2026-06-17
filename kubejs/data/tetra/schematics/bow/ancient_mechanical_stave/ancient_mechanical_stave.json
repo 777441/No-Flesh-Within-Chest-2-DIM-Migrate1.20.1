@@ -1,0 +1,33 @@
+{
+    "replace": true,
+    "slots": [
+        "bow/stave"
+    ],
+    "requirement":{
+        "type":"mr:custom",
+        "key":"ancient_mechanical_stave"
+    },
+    "rarity": "ancient",
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/custom_glyph.png",
+        "textureX": 112
+    },
+    "outcomes": [
+        {
+            "materials": [ "tetra:wood/" ],
+            "countFactor": 2,
+            "toolOffset": 1,
+            "moduleKey": "bow/ancient_mechanical_stave",
+            "moduleVariant": "ancient_mechanical_stave/"
+        },
+        {
+            "materials": [ "tetra:metal/" ],
+            "countFactor": 3,
+            "toolOffset": 3,
+            "moduleKey": "bow/ancient_mechanical_stave",
+            "moduleVariant": "ancient_mechanical_stave/"
+        }
+    ]
+}

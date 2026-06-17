@@ -1,0 +1,38 @@
+{
+    "slotDefinitions": [
+        {"x": 34, "y": 50},
+        {"x": 70, "y": 50},
+        {"x": 88, "y": 50},
+        {"x": 106, "y": 50},
+        {"x": 142, "y": 50},
+        {"x": 16, "y": 68},
+        {"x": 70, "y": 68},
+        {"x": 88, "y": 68},
+        {"x": 106, "y": 68},
+        {"x": 160, "y": 68},
+        {"x": 34, "y": 86},
+        {"x": 70, "y": 86},
+        {"x": 88, "y": 86},
+        {"x": 106, "y": 86},
+        {"x": 142, "y": 86}
+    ],
+    "backgroundTexture": "kubejs:textures/gui/chest_cavity/small_aquatic.png",
+    "playerInventoryPosition": {
+        "x": 8,
+        "y": 42
+    },
+    "titlePosition": {
+        "x": 0,
+        "y": 0,
+        "hide": true
+    },
+    "backgroundSize": {
+        "x": 198,
+        "y": 217
+    },
+    "inventoryLabelPosition": {
+        "x": 0,
+        "y": 0,
+        "hide": true
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "replace": true,
+    "type": "tetra:multi_major_module",
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "slotSuffixes": [
+        "_left",
+        "_right"
+    ],
+    "improvements": [
+        "tetra:double/ancient_gula_scythe/",
+        "tetra:double/shared_head/",
+        "tetra:double/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": ["tetra:gem/", "tetra:wood/", "tetra:stone/" , "tetra:metal/"],
+            "key": "ancient_gula_scythe/",
+            "attributes": {
+                "generic.attack_damage": 1.5,
+                "generic.attack_speed": -1.5
+            },
+            "aspects": {
+                "block_breaker": 1,
+                "edged_weapon": 2,
+                "breakable": 2
+            },
+            "effects": {
+                "sweepingStrike": 1,
+                "sweeping": 1
+            },
+            "durability": -10,
+            "extract": {
+                "primaryAttributes": {
+                    "generic.attack_damage": 3
+                },
+                "primaryEffects": {
+                    "kubejs:hunger_strike": [1, 1]
+                },
+                "tertiaryEffects": {
+                    "kubejs:hunger_strike": [1, 0]
+                },
+                "durability": 0.6,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureLocation": "tetra:textures/gui/custom_glyph.png",
+                    "textureX": 80
+                },
+                "availableTextures": [ "metal" ],
+                "models": [{
+                    "location": "tetra:item/module/double/head/ancient_gula_scythe/"
+                }]
+            }
+        },
+        {
+            "materials": ["tetra:bone/"],
+            "key": "ancient_gula_scythe/",
+            "attributes": {
+                "generic.attack_damage": 1.0,
+                "generic.attack_speed": -1.3
+            },
+            "aspects": {
+                "block_breaker": 1,
+                "edged_weapon": 2,
+                "breakable": 2
+            },
+            "effects": {
+                "sweepingStrike": 1,
+                "sweeping": 1,
+                "truesweep": 1
+            },
+            "durability": -10,
+            "extract": {
+                "primaryAttributes": {
+                    "generic.attack_damage": 1
+                },
+                "primaryEffects": {
+                    "kubejs:hunger_strike": [1, 2]
+                },
+                "tertiaryEffects": {
+                    "kubejs:hunger_strike": [1, 1]
+                },
+                "durability": 0.6,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureLocation": "tetra:textures/gui/custom_glyph.png",
+                    "textureX": 80
+                },
+                "availableTextures": [ "crude"],
+                "models": [{
+                    "location": "tetra:item/module/double/head/ancient_gula_scythe/"
+                }]
+            }
+        }
+    ]
+}

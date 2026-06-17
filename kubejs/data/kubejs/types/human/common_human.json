@@ -1,0 +1,31 @@
+{
+    "defaultChestCavity": [
+      {"item": "kubejs:muscle","position": 0},
+      {"item": "kubejs:rib","position": 1},
+      {"item": "kubejs:appendix","position": 2},
+      {"item": "kubejs:lung","position": 3},
+      {"item": "kubejs:heart","position": 4},
+      {"item": "kubejs:lung","position": 5},
+  
+      {"item": "kubejs:rib","position": 7},
+      {"item": "kubejs:muscle","position": 8},
+      {"item": "kubejs:muscle","position": 9},
+      {"item": "kubejs:rib","position": 10},
+      {"item": "kubejs:spleen","position": 11},
+      {"item": "kubejs:kidney","position": 12},
+      {"item": "kubejs:spine","position": 13},
+      {"item": "kubejs:kidney","position": 14},
+      {"item": "kubejs:liver","position": 15},
+      {"item": "kubejs:rib","position": 16},
+      {"item": "kubejs:muscle","position": 17},
+      {"item": "kubejs:muscle","position": 18},
+      {"item": "kubejs:muscle","position": 19},
+      {"item": "kubejs:intestine","position": 20},
+      {"item": "kubejs:intestine","position": 21},
+      {"item": "kubejs:stomach","position": 22},
+      {"item": "kubejs:intestine","position": 23},
+      {"item": "kubejs:intestine","position": 24},
+      {"item": "kubejs:muscle","position": 25},
+      {"item": "kubejs:muscle","position": 26}
+    ]
+  }

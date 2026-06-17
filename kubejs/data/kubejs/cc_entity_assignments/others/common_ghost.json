@@ -1,0 +1,14 @@
+{
+    "chestcavity": "kubejs:cc_types/others/common_ghost.json",
+    "entities": [
+        "iceandfire:ghost",
+        "goety:border_wraith",
+        "goety:wraith",
+        "graveyard:reaper",
+        "graveyard:revenant",
+        "graveyard:wraith",
+        "twilightforest:carminite_ghastguard",
+        "twilightforest:carminite_ghastling",
+        "twilightforest:wraith"
+    ]
+  }

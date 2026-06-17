@@ -1,0 +1,28 @@
+// priority: 800
+ApplyMultiStateTooltip(new MultiStateTooltip('kubejs:exorcism_lens')
+    .setShiftDescription(Text.translatable('tooltips.kubejs.tool.shift.1'))
+    .setShiftHoldingDescription(Text.translatable('tooltips.kubejs.tool.shift_holding.1'))
+    .addDefault(Text.translatable('tooltips.kubejs.exorcism_lens.default.1').gray())
+    .addShift(Text.translatable('tooltips.kubejs.exorcism_lens.shift.1'))
+)
+ApplyMultiStateTooltip(new MultiStateTooltip('kubejs:frost_lens')
+    .setShiftDescription(Text.translatable('tooltips.kubejs.tool.shift.1'))
+    .setShiftHoldingDescription(Text.translatable('tooltips.kubejs.tool.shift_holding.1'))
+    .addDefault(Text.translatable('tooltips.kubejs.frost_lens.default.1').gray())
+    .addShift(Text.translatable('tooltips.kubejs.frost_lens.shift.1'))
+)
+
+ApplyMultiStateTooltip(new MultiStateTooltip('kubejs:reverse_causality_lens')
+    .setShiftDescription(Text.translatable('tooltips.kubejs.tool.shift.1'))
+    .setShiftHoldingDescription(Text.translatable('tooltips.kubejs.tool.shift_holding.1'))
+    .addDefault(Text.translatable('tooltips.kubejs.reverse_causality_lens.default.1').gray())
+    .addShift(Text.translatable('tooltips.kubejs.reverse_causality_lens.shift.1', UnstableHover))
+)
+
+
+ApplyMultiStateTooltip(new MultiStateTooltip('kubejs:wide_angle_lens')
+    .setShiftDescription(Text.translatable('tooltips.kubejs.tool.shift.1'))
+    .setShiftHoldingDescription(Text.translatable('tooltips.kubejs.tool.shift_holding.1'))
+    .addDefault(Text.translatable('tooltips.kubejs.wide_angle_lens.default.1').gray())
+    .addShift(Text.translatable('tooltips.kubejs.wide_angle_lens.shift.1'))
+)

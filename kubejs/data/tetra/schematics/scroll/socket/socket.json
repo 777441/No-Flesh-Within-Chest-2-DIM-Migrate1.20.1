@@ -1,0 +1,21 @@
+{
+    "replace": true,
+    "slots": [
+        "scroll/socket"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureX": 80,
+        "textureY": 112
+    },
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:socket/"
+            ],
+            "moduleKey": "scroll/socket",
+            "moduleVariant": "socket/"
+        }
+    ]
+}
