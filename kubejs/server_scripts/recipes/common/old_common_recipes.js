@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
                 let forgeTimes = ft1
                 return Item.of('kubejs:infinity_force', { forgeTimes: forgeTimes + 1 })
             }
-            return stack
+            return Item.of('kubejs:infinity_force')
         })
 
     event.shapeless('kubejs:lucky_cookie', ['minecraft:paper', 'minecraft:cookie'])

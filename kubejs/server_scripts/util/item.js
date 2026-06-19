@@ -20,7 +20,7 @@ function DeserializeItemFromNbt(data) {
 function GetTreaseMapItem(level, pos) {
     let mapItem = $MapItem.create(level, pos.x, pos.z, 1, true, true)
     $MapItem.renderBiomePreviewMap(level, mapItem)
-    $MapItemSavedData.addTargetDecoration(mapItem, pos, "+", $MapDecorationType.RED_X)
+    $MapItemSavedData.addTargetDecoration(mapItem, pos, '+', $MapDecorationType.RED_X)
     return mapItem
 }
 
@@ -162,7 +162,6 @@ function GetModularItemMineSpeed(stack) {
  */
 function GetEntityHeadItem(entity) {
     if (entity.isPlayer()) {
-        entity.getGameProfile()
         return Item.of('minecraft:player_head', $NbtUtils.writeGameProfile(new $CompoundTag(), entity.getGameProfile()))
     } else if (Entity2EntityHeadItem[entity.getType()]) {
         return Entity2EntityHeadItem[entity.getType()]

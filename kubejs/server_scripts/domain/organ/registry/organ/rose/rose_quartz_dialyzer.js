@@ -1,6 +1,8 @@
 // priority: 500
 RegistryOrgan('kubejs:rose_quartz_dialyzer')
     .addScore('chestcavity:filtration', 2.0)
+    .addScore('chestcavity:nerves', -0.25)
+    .addScore('chestcavity:hydroallergenic', -0.5)
     .addScore('chestcavity:defense', -1)
     .addScore('kubejs:rosy', 0.5)
 

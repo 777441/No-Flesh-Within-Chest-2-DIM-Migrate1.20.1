@@ -1,6 +1,8 @@
 // priority: 500
 RegistryOrgan('kubejs:rose_quartz_liver')
     .addScore('chestcavity:detoxification', 1.0)
+    .addScore('chestcavity:nerves', -0.25)
+    .addScore('chestcavity:hydroallergenic', -0.5)
     .addScore('chestcavity:defense', -0.5)
     .addScore('kubejs:rosy', 0.5)
 

@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
         'SDCDS',
         'SWEWS',
         'AAAAA'
-    ], { B: 'create:electron_tube', C: 'biomancy:creator_mix', D: 'create:precision_mechanism', E: 'createaddition:connector', S: 'minecraft:pink_dye', W: 'createaddition:copper_wire', A: 'create:polished_rose_quartz' })
+    ], { B: 'create:electron_tube', C: 'biomancy:creator_mix', D: 'create:precision_mechanism', E: 'createaddition:connector', S: 'minecraft:pink_dye', W: 'createaddition:iron_wire', A: 'create:polished_rose_quartz' })
 
     event.recipes.create.mechanical_crafting('kubejs:energy_bottle_max', [
         ' AAA ',
@@ -240,8 +240,8 @@ ServerEvents.recipes(event => {
         Item.of('kubejs:revolution_steam_engine').withChance(90.0),
         Item.of('tetra:metal_scrap').withChance(10.0)
     ], 'create:steam_engine', [
-        event.recipes.createDeploying('kubejs:incomplete_revolution_steam_engine', ['kubejs:incomplete_revolution_steam_engine', 'art_of_forging:forged_steel_ingot']),
-        event.recipes.createDeploying('kubejs:incomplete_revolution_steam_engine', ['kubejs:incomplete_revolution_steam_engine', 'kubejs:relic_metal_plate']),
+        event.recipes.createDeploying('kubejs:incomplete_revolution_steam_engine', ['kubejs:incomplete_revolution_steam_engine', Item.of('art_of_forging:forged_steel_ingot')]),
+        event.recipes.createDeploying('kubejs:incomplete_revolution_steam_engine', ['kubejs:incomplete_revolution_steam_engine', Item.of('kubejs:relic_metal_plate')]),
         event.recipes.create.filling('kubejs:incomplete_revolution_steam_engine', ['kubejs:incomplete_revolution_steam_engine', Fluid.of('minecraft:water').withAmount(500)]),
         event.recipes.create.filling('kubejs:incomplete_revolution_steam_engine', ['kubejs:incomplete_revolution_steam_engine', Fluid.of('minecraft:lava').withAmount(500)])
     ]).transitionalItem('kubejs:incomplete_revolution_steam_engine').loops(3)
@@ -277,11 +277,11 @@ ServerEvents.recipes(event => {
         Item.of('kubejs:relic_metal_ingot').withChance(80.0),
         Item.of('tetra:metal_scrap').withChance(20.0)
     ], 'art_of_forging:forged_steel_ingot', [
-        event.recipes.createDeploying('kubejs:incomplete_relic_metal_ingot', ['kubejs:incomplete_relic_metal_ingot', 'kubejs:relic_metal_plate']),
+        event.recipes.createDeploying('kubejs:incomplete_relic_metal_ingot', ['kubejs:incomplete_relic_metal_ingot', Item.of('kubejs:relic_metal_plate')]),
         event.recipes.createPressing('kubejs:incomplete_relic_metal_ingot', 'kubejs:incomplete_relic_metal_ingot'),
-        event.recipes.createDeploying('kubejs:incomplete_relic_metal_ingot', ['kubejs:incomplete_relic_metal_ingot', 'kubejs:relic_metal_plate']),
+        event.recipes.createDeploying('kubejs:incomplete_relic_metal_ingot', ['kubejs:incomplete_relic_metal_ingot', Item.of('kubejs:relic_metal_plate')]),
         event.recipes.createPressing('kubejs:incomplete_relic_metal_ingot', 'kubejs:incomplete_relic_metal_ingot'),
-        event.recipes.createDeploying('kubejs:incomplete_relic_metal_ingot', ['kubejs:incomplete_relic_metal_ingot', 'kubejs:relic_metal_plate']),
+        event.recipes.createDeploying('kubejs:incomplete_relic_metal_ingot', ['kubejs:incomplete_relic_metal_ingot', Item.of('kubejs:relic_metal_plate')]),
         event.recipes.createCutting('kubejs:incomplete_relic_metal_ingot', 'kubejs:incomplete_relic_metal_ingot')
     ]).transitionalItem('kubejs:incomplete_relic_metal_ingot').loops(5)
 

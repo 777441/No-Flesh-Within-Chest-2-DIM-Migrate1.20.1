@@ -32,14 +32,6 @@ RegistryAttributeIdentifier(
         .setBaseMultiUUID('23E366D5-5EC3-44AA-8E83-231E809F7257')
         .setAllMultiUUID('CFEF9CB9-1A85-45E6-B195-5F0ADD2D1616')
 )
-
-RegistryAttributeIdentifier(
-    new AttributeUUIDModel('minecraft:generic.armor_toughness', 'OrganArmorToughness')
-        .setBaseAddUUID('6D6F9F67-8E3D-4C86-AD77-C7F0B6A8C4B1')
-        .setBaseMultiUUID('65B21F61-D74F-4E75-8F68-DF364D3F8229')
-        .setAllMultiUUID('59414883-88E0-4E91-A93A-5855D2C35E30')
-)
-
 RegistryAttributeIdentifier(
     new AttributeUUIDModel('forge:entity_reach', 'OrganEntityReach')
         .setBaseAddUUID('BDC7EBCB-59E5-4E10-B23D-3B0A351B6575')

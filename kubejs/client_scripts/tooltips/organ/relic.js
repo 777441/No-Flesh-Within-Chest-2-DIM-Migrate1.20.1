@@ -55,20 +55,3 @@ RegistryOrganTooltip(new MultiStateTooltip('kubejs:warden_core')
     .addAlt(Text.translatable('tooltips.kubejs.warden_core.alt.1', KeyActiveHover))
     .addAlt(Text.translatable('tooltips.kubejs.warden_core.alt.2'))
 )
-
-RegistryOrganTooltip(new MultiStateTooltip('kubejs:relic_metal_plate')
-    .addDefault(Text.translatable('tooltips.kubejs.relic_metal_plate.default.1').gray())
-    .addDefault(Text.translatable('tooltips.kubejs.relic_metal_plate.default.2').gray())
-)
-
-RegistryOrganTooltip(new MultiStateTooltip('kubejs:aesegull_rib_left')
-    .addDefault(Text.translatable('tooltips.kubejs.aesegull_rib_left.default.1').gray())
-    .addCtrl(Text.translatable('tooltips.kubejs.aesegull_rib_left.ctrl.1', Text.gold(Text.translatable('item.kubejs.aesegull_rib_right')), Text.gold('3')).gray())
-)
-
-RegistryOrganTooltip(new MultiStateTooltip('kubejs:aesegull_rib_right')
-    .addDefault(Text.translatable('tooltips.kubejs.aesegull_rib_right.default.1').gray())
-    .addCtrl(Text.translatable('tooltips.kubejs.aesegull_rib_right.ctrl.1', Text.gold(Text.translatable('item.kubejs.aesegull_rib_left')), Text.gold('3')).gray())
-)
-
-// treasure_detector_feather tooltip 已迁移至 client_scripts/tooltips/organ/alex.js（Alex 系）

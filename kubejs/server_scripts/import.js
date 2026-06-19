@@ -143,7 +143,6 @@ const $PlonkRegistryItems = Java.loadClass('com.breakinblocks.plonk.common.regis
 const $UseOnContext = Java.loadClass('net.minecraft.world.item.context.UseOnContext')
 const $ItemBlockPlacedItems = Java.loadClass('com.breakinblocks.plonk.common.item.ItemBlockPlacedItems')
 const $Boolean = Java.loadClass('java.lang.Boolean')
-const $HashMap = Java.loadClass('java.util.HashMap')
 const $ItemStackKey = Java.loadClass('com.wintercogs.beyonddimensions.api.storage.key.impl.ItemStackKey')
 
 const $ClientboundSetPassengersPacket = Java.loadClass('net.minecraft.network.protocol.game.ClientboundSetPassengersPacket')
@@ -182,3 +181,4 @@ const $BankDataCache = Java.loadClass('io.github.lightman314.lightmanscurrency.c
 const $WalletItem = Java.loadClass('io.github.lightman314.lightmanscurrency.common.items.WalletItem')
 const $BiomeSource = Java.loadClass('net.minecraft.world.level.biome.BiomeSource')
 const $ChestOpener = Java.loadClass('net.tigereye.chestcavity.items.ChestOpener')
+const $HashMap = Java.loadClass('java.util.HashMap')

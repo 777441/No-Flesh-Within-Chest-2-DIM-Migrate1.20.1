@@ -2,9 +2,6 @@
 StartupEvents.registry('item', event => {
     event.create('kubejs:king_of_stomach').maxStackSize(1).texture('kubejs:item/organs/food/king_of_stomach').tag('kubejs:stomach')
 
-    event.create('kubejs:greedy_stomach').maxStackSize(1).texture('kubejs:item/organs/common/stomach').tag('kubejs:stomach')
-    event.create('kubejs:candy_stomach').maxStackSize(1).texture('kubejs:item/organs/candy/candy_stomach').tag('kubejs:stomach').tag('kubejs:candy')
-
     event.create('kubejs:sweets_gland').food(food => food.hunger(2).saturation(1).alwaysEdible()).maxStackSize(1).texture('kubejs:item/organs/food/sweets_gland').tag('kubejs:food')
 
     event.create('kubejs:beer_gland').food(food => food.hunger(2).saturation(1).alwaysEdible()).maxStackSize(1).texture('kubejs:item/organs/food/beer_gland').tag('kubejs:food')

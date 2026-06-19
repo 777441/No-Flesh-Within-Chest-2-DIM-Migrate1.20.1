@@ -1,10 +1,7 @@
 {
   "defaultChestCavity": [
-    {
-      "item": "kubejs:shulker_eye",
-      "position": 2
-    }
+    {"item":"kubejs:shulker_eye", "position": 2}
   ],
   "baseOrganScores": [],
-  "inventoryType": "kubejs:cc_inventory_types/small_terra"
+  "inventoryType": "kubejs:cc_inventory_types/small_golem"
 }

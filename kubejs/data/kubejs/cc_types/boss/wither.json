@@ -1,10 +1,7 @@
 {
-  "defaultChestCavity": [
-    {
-      "item": "kubejs:wither_skull",
-      "position": 1
-    }
-  ],
-  "baseOrganScores": [],
-  "inventoryType": "kubejs:cc_inventory_types/small_terra"
+    "defaultChestCavity": [   
+        {"item": "kubejs:wither_skull", "position": 1}
+    ],
+    "baseOrganScores": [],
+    "inventoryType": "kubejs:cc_inventory_types/relic"
 }

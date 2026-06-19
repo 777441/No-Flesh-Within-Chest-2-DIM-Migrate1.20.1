@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
             stack.nbt.merge({ organ: { id: organ.id, tag: organ.nbt } })
             return stack;
         })
-    event.shapeless('chestcavity:appendix', ['kubejs:organ_charm'])
+    event.shapeless('kubejs:appendix', ['kubejs:organ_charm'])
         .replaceIngredient('kubejs:organ_charm', 'kubejs:empty_organ_charm')
         .modifyResult((grid, stack) => {
             let charm = grid.find('kubejs:organ_charm', 0)

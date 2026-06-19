@@ -1,10 +1,7 @@
 {
-  "defaultChestCavity": [],
-  "baseOrganScores": [
-    {
-      "id": "chestcavity:ease_of_access",
-      "value": "1"
-    }
-  ],
-  "inventoryType": "kubejs:cc_inventory_types/small_terra"
+    "defaultChestCavity": [],
+    "baseOrganScores": [
+        {"id": "chestcavity:ease_of_access","value": "1"}
+    ],
+    "inventoryType": "kubejs:cc_inventory_types/relic"
 }

@@ -21,24 +21,7 @@ function HarbingerLungEntityKill(customData, event, organItem, organIndex, slotT
     killer.heal(Math.floor(fireTicksRemain / 20))
 }
 
-/**
- * @param {OrganEventCustomData} customData
- * @param {Internal.LivingDamageEvent} event
- * @param {Internal.ItemStack} organItem
- * @param {number} organIndex
- * @param {string} slotType
- */
-function HarbingerLungEntityBeHurt(customData, event, organItem, organIndex, slotType) {
-    let damage = event.amount
-    let cost = Math.floor(damage / 2)
-    if (cost <= 0) return
-    if (organItem.getDamageValue() + cost > organItem.getMaxDamage()) return
-    event.amount = damage / 2
-    organItem.setDamageValue(organItem.getDamageValue() + cost)
-}
-
 RegistryOrganStrategy(
     new OrganStrategyModel('kubejs:harbinger_lung')
         .addOnlyStrategy('entity_kill', HarbingerLungEntityKill)
-        .addOnlyStrategy('entity_be_hurt', HarbingerLungEntityBeHurt)
 )

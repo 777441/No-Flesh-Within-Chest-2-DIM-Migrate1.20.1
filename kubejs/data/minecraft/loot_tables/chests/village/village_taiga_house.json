@@ -152,7 +152,7 @@
         {
           "type": "minecraft:item",
           "name": "kubejs:organ_purification_tank",
-          "weight": 3
+          "weight": 2
         }
       ],
       "rolls": {

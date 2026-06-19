@@ -12,7 +12,7 @@ BlockEvents.rightClicked(event => {
     const level = event.level
     const block = event.block
     const state = block.blockState
-    if (!state.block || !(state.block instanceof $TraderBlockBase)) return
+    if (!(state.block instanceof $TraderBlockBase)) return
     // 逻辑仅在商店维度生效
     if (level.dimension != 'infinity:room') return
 

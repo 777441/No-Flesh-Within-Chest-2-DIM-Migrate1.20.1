@@ -11,8 +11,4 @@ StartupEvents.registry('item', event => {
     event.create('kubejs:scylla_star_gem').maxStackSize(1).tag('kubejs:relic').tag('kubejs:magic').texture('kubejs:item/organs/relic/scylla_star_gem').tag('kubejs:gem')
     event.create('kubejs:dying_heart').food(food => food.hunger(3).saturation(1)).maxStackSize(1).tag('kubejs:relic').tag('kubejs:magic').texture('kubejs:item/organs/relic/dying_heart')
     event.create('kubejs:wither_skull').maxStackSize(1).tag('kubejs:relic').texture('kubejs:item/organs/relic/wither_skull')
-    event.create('kubejs:relic_metal_plate').maxStackSize(1).texture('kubejs:item/organs/relic/relic_metal_plate').tag('kubejs:relic').tag('kubejs:machine')
-    event.create('kubejs:aesegull_rib_left').maxStackSize(1).texture('kubejs:item/organs/relic/aesegull_rib_left').tag('kubejs:relic').tag('kubejs:bone')
-    event.create('kubejs:aesegull_rib_right').maxStackSize(1).texture('kubejs:item/organs/relic/aesegull_rib_right').tag('kubejs:relic').tag('kubejs:bone')
-    // treasure_detector_feather 物品注册已迁移至 startup_scripts/item/organ/alex.js（Alex 系）
 })

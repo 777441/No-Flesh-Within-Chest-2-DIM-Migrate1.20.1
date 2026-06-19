@@ -1,10 +1,7 @@
 {
   "defaultChestCavity": [
-    {
-      "item": "kubejs:nightmare_core",
-      "position": 10
-    }
+    {"item": "kubejs:nightmare_core", "position": 10}
   ],
   "baseOrganScores": [],
-  "inventoryType": "kubejs:cc_inventory_types/small_terra"
+  "inventoryType": "kubejs:cc_inventory_types/medium_undead"
 }

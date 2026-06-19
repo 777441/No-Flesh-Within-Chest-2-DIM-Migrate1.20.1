@@ -3,7 +3,6 @@
  * @property {AttributeManagerModel} attackDamage
  * @property {AttributeManagerModel} maxHealth
  * @property {AttributeManagerModel} armor
- * @property {AttributeManagerModel} armorToughness
  * @property {AttributeManagerModel} entityReach
  * @property {AttributeManagerModel} blockReach
  */

@@ -27,19 +27,7 @@ function LeviathanRibEntityBeHurt(customData, event, organItem, organIndex, slot
     level.addFreshEntity(tentacle)
 }
 
-/**
- * @param {OrganChestCavityUpdateStrategyCustomData} customData
- * @param {Internal.EvaluateChestCavityJS} event
- * @param {Internal.ItemStack} organItem
- * @param {number} organIndex
- * @param {string} slotType
- */
-function LeviathanRibChestCavityUpdate(customData, event, organItem, organIndex, slotType) {
-    customData.armorToughness.addAttributeModifier(2, 'addition', 'base')
-}
-
 RegistryOrganStrategy(
     new OrganStrategyModel('kubejs:leviathan_rib')
         .addOnlyStrategy('entity_be_hurt', LeviathanRibEntityBeHurt)
-        .addStrategy('chest_cavity_update', LeviathanRibChestCavityUpdate)
 )

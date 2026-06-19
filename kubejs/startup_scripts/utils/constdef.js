@@ -35,16 +35,24 @@ function randomGet(list) {
     return list[Math.floor(Math.random() * list.length)];
 }
 
+// 迁移到 TetraJS 新 API：ItemEffect.get(key) + StatBarHelper.effectLevel
+// 旧版 TetraEffect.createItemEffect / TetraStatGetter.createStatGetterEffectLevel 已删除
+// 使用 var 允许 Rhino 重复声明，避免脚本重载时的 redeclaration 报错
 try {
-    const TetraEffectFunctionalization = TetraEffect.createItemEffect(new ResourceLocation('kubejs:functionalization'))
-    const TetraEffectFunctionalizationEffectGetter = TetraStatGetter.createStatGetterEffectLevel(TetraEffectFunctionalization, 1)
+    var $ItemEffectClass = Java.loadClass('se.mickelus.tetra.effect.ItemEffect')
+    var effFunctionalization = $ItemEffectClass.get('functionalization')
+    var effFunctionalizationGetter = StatBarHelper.effectLevel(effFunctionalization, 1.0)
 
-    const TetraEffectSilicosis = TetraEffect.createItemEffect(new ResourceLocation('kubejs:silicosis'))
-    const TetraEffectSilicosisEffectGetter = TetraStatGetter.createStatGetterEffectLevel(TetraEffectSilicosis, 1)
+    var effSilicosis = $ItemEffectClass.get('silicosis')
+    var effSilicosisGetter = StatBarHelper.effectLevel(effSilicosis, 1.0)
 
     global.TetraEffect = {
-        'kubejs:functionalization': TetraEffectFunctionalization,
-        'kubejs:silicosis': TetraEffectSilicosis
+        'kubejs:functionalization': effFunctionalization,
+        'kubejs:silicosis': effSilicosis
+    }
+    global.TetraEffectGetters = {
+        functionalization: effFunctionalizationGetter,
+        silicosis: effSilicosisGetter
     }
 } catch (e) {
     console.warn('[Migration] TetraEffect API 不可用，已跳过: ' + e)

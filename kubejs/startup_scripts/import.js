@@ -56,13 +56,3 @@ const $WitherSkullProjectile = Java.loadClass('io.redspace.ironsspellbooks.entit
 const $DeployerFakePlayer = Java.loadClass('com.simibubi.create.content.kinetics.deployer.DeployerFakePlayer')
 
 const $BaseSelectorItem = Java.loadClass('net.yorunina.maa.items.BaseSelectorItem')
-
-const $EntityFireDragon = Java.loadClass('com.github.alexthe666.iceandfire.entity.EntityFireDragon')
-const $EntityIceDragon = Java.loadClass('com.github.alexthe666.iceandfire.entity.EntityIceDragon')
-const $EntityLightningDragon = Java.loadClass('com.github.alexthe666.iceandfire.entity.EntityLightningDragon')
-const $Registry = Java.loadClass('net.minecraft.core.Registry')
-/** @type {Internal.Class | null} */
-let $AttributeEntry = null
-try { $AttributeEntry = Java.loadClass('dev.xkmc.l2library.base.tabs.contents.AttributeEntry') }
-catch (e) { console.warn('[Migration] $AttributeEntry 不可用，已跳过: ' + e) }
-const $AttributeRegistry = Java.loadClass('io.redspace.ironsspellbooks.api.registry.AttributeRegistry')

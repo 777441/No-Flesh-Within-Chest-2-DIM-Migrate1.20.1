@@ -168,7 +168,7 @@ ItemEvents.rightClicked('kubejs:advanced_chest_opener', event => {
         let chestCavityEntity = optional.get()
         let cc = chestCavityEntity.getChestCavityInstance()
         // 先进开胸器强制打开任何有胸腔的生物（跳过 isOpenable 的胸甲/血量限制）
-        if (!cc.getOrganScore($CCOrganScores.EASE_OF_ACCESS) > 0 && !painlessOper) {
+        if (cc.getOrganScore($CCOrganScores.EASE_OF_ACCESS) <= 0 && !painlessOper) {
             target.attack(target.damageSources().generic(), 4)
         }
         if (target.isAlive()) {

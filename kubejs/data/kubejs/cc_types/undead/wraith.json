@@ -1,10 +1,7 @@
 {
   "defaultChestCavity": [
-    {
-      "item": "kubejs:soul_core",
-      "position": 8
-    }
+    {"item": "kubejs:soul_core", "position": 8}
   ],
   "baseOrganScores": [],
-  "inventoryType": "kubejs:cc_inventory_types/small_terra"
+  "inventoryType": "kubejs:cc_inventory_types/small_undead"
 }

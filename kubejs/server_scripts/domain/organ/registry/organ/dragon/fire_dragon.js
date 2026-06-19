@@ -76,9 +76,12 @@ RegistryOrgan('kubejs:fire_dragon_appendix')
     .setCanSpawn(true)
 
 RegistryOrgan('kubejs:fire_dragon_bead')
+    .addScore('chestcavity:crystalsynthesis', 2.5)
+    .addScore('chestcavity:knockback_resistant', 1.5)
+    .addScore('chestcavity:endurance', 0.5)
     .addScore('chestcavity:health', 1.5)
     .addScore('chestcavity:strength', 0.25)
-    .addScore('chestcavity:burning_point', 15)
+    .addScore('chestcavity:burning_point', 20)
     .addScore('chestcavity:freezing_point', 5)
     .setCanSpawn(true)
 
